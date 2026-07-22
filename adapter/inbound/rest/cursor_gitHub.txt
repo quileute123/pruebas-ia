@@ -1,8 +1,0 @@
-En cursor.com/agents no se suben archivos .java sueltos. Los Cloud Agents trabajan sobre un repositorio Git conectado.
-
-Cómo hacerlo
-Sube tu código Java a GitHub / GitLab / Bitbucket / Azure DevOps (aunque sea un repo privado o temporal).
-En Cursor: Integrations --> conecta ese proveedor con permisos de lectura/escritura.
-Entra a cursor.com/agents, elige el repo (y rama).
-Escribe el prompt, por ejemplo: “Analiza este código Java, propone mejoras y genera los cambios.”
-El agente clona el repo en una VM, trabaja en una rama aparte y te deja un diff / PR con las propuestas.
